@@ -9,7 +9,7 @@ import morgan from "morgan";
 import cors from "cors";
 import "dotenv/config";
 import cookieParser from "cookie-parser";
-
+import "./model";
 import mainRouter from "./router/index";
 
 const app = express();
